@@ -40,7 +40,7 @@ def home():
     else:
         return 'logged in currently. You can use chat, just go to http://127.0.0.1:5000/chat and check your terminal'
 
-# a public route for sending messages. check terminal
+# a private route for sending messages. check terminal
 
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
